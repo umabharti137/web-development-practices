@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(63, 20, 165, 0.8);
+}
+
+.container {
+    width: 800px;
+    height: 620px;
+    background: #FFF;
+    margin: 50px auto;
+    border-radius: 16px;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.left-image {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #eee;
+    border-radius: 16px 0px 0px 16px;
+    z-index: 0;
+}
+
+.login-page-form {
+    height: 98%;
+    background: #FFF;
+    position: relative;
+    float: left;
+    z-index: 1;
+    width: 40%;
+    padding: 15px 24px 0px 24px;
+    margin-left: -20px;
+    /* margin: 16px 28px; */
+    align-items: center;
+    border-radius: 20px !important;
+    /* border: 1px solid #000; */
+}
+
+.login-page-form .login-header {
+    font-family: 'Open Sans', sans-serif;
+    color: #4331e6;
+    font-weight: 700;
+}
+.login-page-form .login-header h2 {
+    margin: 12px 0px;
+}
+
+.login-page-form .login-header p {
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.login-page-form .login-form {
+    width: calc(100% + 40px) !important;
+    margin: 28px auto;
+}
+
+/* for only input type password and email */
+.login-page-form .login-form input[type="email"], input[type="password"] {
+    width: 100%;
+    height: 24px;
+    border: 0px;
+    color: #4331e6;
+    border-bottom: 1px solid #333;
+    font: 1.2em sans-serif;
+    padding: 12px 2px;
+    margin: 4px 2px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Open-sans' sans-serif;
+}
+
+.row {
+    width: 100%;
+}
+
+/* for every input element */
+input:focus {
+    outline: 0px; /* focus border set to 0 */ 
+}
+
+.login-page-form .login-form .float-right {
+    margin-left: 65%;
+}
+
+.login-page-form .login-form input[type="submit"] {
+    margin-left: 40% !important;
+    /* margin: 10px auto; */
+}
+
+/* global input:submit components */
+input[type="submit"] {
+    color: #FFF;
+    background: #4331e6;
+    border: 1px solid gray;
+    border-radius: 16px;
+    padding: 10px 24px;
+    margin: 4px 8px;
+}
+
+.login-page-form .social-section {
+    width: calc(100% + 32px);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-page-form .social-section p {
+    color: #9b9b9a;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.login-page-form .social-section span {
+    border: 1px solid #9b9b9a;
+    padding: 8px;
+    border-radius: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.fa-facebook {
+    color: #2f318d;
+}
+
+.fa-twitter {
+    color: #1dbbeb;
+}
+
+.fa-google {
+    color: #684de4;
+}
+
+.over-the-moon {
+    width: 166%;
+    
+} 
+
